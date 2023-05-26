@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="sideBar">
+        <ul>
+            <li class="logo">
+                <a href="#">
+                    <span class="icon">
+                       <img src="https://i.pinimg.com/originals/af/8f/84/af8f8432313abbeeabbcfdb7d736ea3d.gif" alt="">
+                    </span>
+                    <span class="text" id="lg">Robotic-Mind</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+
+                    </span>
+                    <span class="text">Contato</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="rocket-outline"></ion-icon>
+                    </span>
+                    <span class="text">future</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="logo-ionitron"></ion-icon>
+                    </span>
+                    <span class="text">Robôtica</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="logo-electron"></ion-icon>
+                    </span>
+                    <span class="text">React</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                    </span>
+                    <button class="bt" onclick="abrir()">CADASTRO</button>
+                </a>
+            </li>
+    
+          <div class="bottom">
+            </div>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="desktop-outline"></ion-icon>
+                    </span>
+                    <span class="text">Desenvolvimento</span>
+                </a>
+            </li>
+        </div>
+        </ul>
+    </div>
+
+    <div class="corpo">
+           <h2>WORLD OF<span>FUTURE</span></h2>
+        <form action="https://formsubmit.co/limamario441@gmail.com" method="POST">
+       <input type="text" name="name" required placeholder="Nome">
+       <input type="email" name="email" required placeholder="Email">
+       <textarea placeholder="Sua duvida Digite aqui"></textarea>
+       <button type="submit">ENVIAR</button>
+       <button class="btn" onclick="fechar()" type="button">VOLTAR</button>
+        </form>
+    </div>
+
+   
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+    function abrir(){
+
+        document.querySelector('form').style.opacity = 1;
+        document.querySelector('').style.opacity = 0.3;
+    }
+
+    function fechar(){
+
+document.querySelector('form').style.opacity = 0;
+document.querySelector('').style.opacity = 0.3;
+}
+</script>
+
+</body>
+</html>
